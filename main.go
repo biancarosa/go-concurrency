@@ -6,12 +6,12 @@ import (
 )
 
 const (
-	//MAX defines how many loops are going to run
-	MAX int = 5
-	//MAX_BIGGER defines a bigger number to loop throufh
-	MAX_BIGGER = 10000
-	//TIME defines how many seconds we will wait
-	TIME time.Duration = time.Duration(1)
+	//Max defines how many loops are going to run
+	Max int = 5
+	//MaxBigger defines a bigger number to loop throufh
+	MaxBigger = 10000
+	//Time defines how many seconds we will wait
+	Time time.Duration = time.Duration(1)
 )
 
 func main() {

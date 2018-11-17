@@ -6,9 +6,9 @@ import (
 )
 
 func sleepInALoop() {
-	for i := 1; i <= MAX; i++ {
+	for i := 1; i <= Max; i++ {
 		fmt.Printf("%d - Starting... \n", i)
-		time.Sleep(TIME * time.Second)
+		time.Sleep(Time * time.Second)
 		fmt.Printf("%d - It's over. \n", i)
 	}
 }

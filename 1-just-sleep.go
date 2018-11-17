@@ -7,6 +7,6 @@ import (
 
 func justSleep() {
 	fmt.Println("Starting...")
-	time.Sleep(TIME * time.Second)
+	time.Sleep(Time * time.Second)
 	fmt.Println("It's over.")
 }

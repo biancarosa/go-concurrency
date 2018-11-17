@@ -7,7 +7,6 @@ import (
 func loop() {
 	for i := 1; i <= MaxBigger; i++ {
 		fmt.Printf("%d - Starting... \n", i)
-		//code without I/O
 		fmt.Printf("%d - It's over. \n", i)
 	}
 }
@@ -17,7 +16,6 @@ func loopWithGoRoutines() {
 	for i := 1; i <= MaxBigger; i++ {
 		go func(counter int) {
 			fmt.Printf("%d - Starting... \n", counter)
-			//code without I/O
 			channel <- fmt.Sprintf("%d - It's over. \n", counter)
 		}(i)
 	}
